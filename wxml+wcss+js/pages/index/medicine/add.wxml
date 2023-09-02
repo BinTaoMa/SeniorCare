@@ -1,0 +1,58 @@
+<form bindsubmit="formSubmit">
+<view class="yuyinWrap">
+  <textarea class='yuyinCon' placeholder='药品名称' value='{{content}}' style="position: relative; left: 1rpx; top: -258rpx; width: 652rpx; height: 280rpx; display: block; box-sizing: border-box" name="title"></textarea>
+  <!--  -->
+  <view class=''>
+    <button class="yuyinBtn {{recordState == true ? 'yuyinBtnBg':''}}" bindtouchstart="touchStart" bindtouchend="touchEnd" style="position: absolute; left: 113rpx; top: -68rpx">
+      <text wx:if="{{recordState == false}}">按住 说话</text>
+      <text wx:else>松开 结束</text>
+    </button>
+  </view>
+  <!-- 开始语音 弹出语音图标表示正在录音 -->
+  <cover-view class="startYuyinImage" wx:if="{{recordState == true}}">
+    <cover-image src="https://ts1.cn.mm.bing.net/th/id/R-C.4dbc417bceff4f9e7b10a4fe311d32c6?rik=xbd5w5AhmAtTcw&riu=http%3a%2f%2ficon.chrafz.com%2fuploads%2fallimg%2f160920%2f1-160920154R90-L.png&ehk=N5UP4PyCLur7mTsZlGdeqa9GwsN7CSywzScOJ0ucsvE%3d&risl=&pid=ImgRaw&r=0"></cover-image>
+    <cover-view>开始语音</cover-view>
+  </cover-view>
+</view>
+
+<view class="yuyinWrap">
+  <textarea class='yuyinCon' placeholder='药品分类' value='{{content2}}' style="position: relative; left: 1rpx; top: -480rpx; width: 652rpx; height: 280rpx; display: block; box-sizing: border-box" name="category"></textarea>
+  <!--  -->
+  <view class=''>
+    <button class="yuyinBtn {{recordState2 == true ? 'yuyinBtnBg':''}}" bindtouchstart="touchStart" bindtouchend="touchEnd" style="position: absolute; left: 113rpx; top: -300rpx">
+      <text wx:if="{{recordState2 == false}}">按住 说话</text>
+      <text wx:else>松开 结束</text>
+    </button>
+  </view>
+  <!-- 开始语音 弹出语音图标表示正在录音 -->
+  <cover-view class="startYuyinImage" wx:if="{{recordState2 == true}}">
+    <cover-image src="https://ts1.cn.mm.bing.net/th/id/R-C.4dbc417bceff4f9e7b10a4fe311d32c6?rik=xbd5w5AhmAtTcw&riu=http%3a%2f%2ficon.chrafz.com%2fuploads%2fallimg%2f160920%2f1-160920154R90-L.png&ehk=N5UP4PyCLur7mTsZlGdeqa9GwsN7CSywzScOJ0ucsvE%3d&risl=&pid=ImgRaw&r=0"></cover-image>
+    <cover-view>开始语音</cover-view>
+  </cover-view>
+</view>
+<view class="yuyinWrap">
+  <textarea class='yuyinCon' placeholder='药品描述' value='{{content3}}' style="position: relative; left: 1rpx; top: -726rpx; width: 652rpx; height: 280rpx; display: block; box-sizing: border-box" name="description"></textarea>
+  <!--  -->
+  <view class=''>
+    <button class="yuyinBtn {{recordState3 == true ? 'yuyinBtnBg':''}}" bindtouchstart="touchStart" bindtouchend="touchEnd" style="position: absolute; left: 111rpx; top: -530rpx">
+      <text wx:if="{{recordState3 == false}}">按住 说话</text>
+      <text wx:else>松开 结束</text>
+    </button>
+  </view>
+  <!-- 开始语音 弹出语音图标表示正在录音 -->
+  <cover-view class="startYuyinImage" wx:if="{{recordState3 == true}}">
+    <cover-image src="https://ts1.cn.mm.bing.net/th/id/R-C.4dbc417bceff4f9e7b10a4fe311d32c6?rik=xbd5w5AhmAtTcw&riu=http%3a%2f%2ficon.chrafz.com%2fuploads%2fallimg%2f160920%2f1-160920154R90-L.png&ehk=N5UP4PyCLur7mTsZlGdeqa9GwsN7CSywzScOJ0ucsvE%3d&risl=&pid=ImgRaw&r=0"></cover-image>
+    <cover-view>开始语音</cover-view>
+  </cover-view>
+</view>
+
+<picker class='time-picker' mode="multiSelector" bindchange="bindStartMultiPickerChange" bindtap='pickerTap' bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}" style="position: relative; left: 47rpx; top: -675rpx; width: 704rpx; height: 92rpx; display: block; box-sizing: border-box">{{startDate}}</picker>
+
+
+  <button form-type="submit" style="position: relative; left: 0rpx; top: -615rpx" type="primary" >提交</button>
+</form>
+
+
+
+
+

@@ -1,0 +1,10 @@
+/* pages/index/help/help.wxss */
+button{
+  background: url("/pages/icon01/呼救3.png") no-repeat;
+  border-style: none;
+  background-color: #ffffff;
+  border: 3rpx solid #a59c9c;
+  box-shadow:0rpx 2rpx 5rpx 7rpx #c8c3c3;
+  border-radius: 100px;
+
+}

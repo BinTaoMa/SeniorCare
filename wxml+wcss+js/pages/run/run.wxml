@@ -1,0 +1,52 @@
+
+<view style="width: 682rpx; height: 310rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: 0rpx"> 
+
+<!-- 封面 -->
+<view class="cover" wx:if="https://s1.ax1x.com/2022/09/17/xpAvin.jpg" style="width: 750rpx; height: 1240rpx; display: flex; box-sizing: border-box; left: 0rpx; top: 0rpx; position: relative">
+   <image src="https://s1.ax1x.com/2022/09/17/xpAvin.jpg" style="width: 750rpx; height: 524rpx; display: block; box-sizing: border-box"></image>
+   <!-- 如需渐变色透明化，必须使用 rgb，部分机型下#FFFFFF00无法生效 -->
+   <view class="layer" style="background: linear-gradient(rgb(255, 255, 255,0), #ffffff); width: 750rpx; height: 924rpx; display: block; box-sizing: border-box; left: 2rpx; top: 0rpx; position: relative"></view>
+   
+   
+ </view>
+
+
+ <text class="text1" style="position: relative; left: 0rpx; top: -1200rpx">运动带来健康</text>
+   <text class="text2" style="position: relative; left: 0rpx; top: -1162rpx; width: 750rpx; height: 94rpx; display: block; box-sizing: border-box">今日你已经</text>
+
+</view>
+<van-circle style="position: absolute; left: 166rpx; top: 212rpx" value="{{ step1/100 }}" stroke-width="35" color="#87CEFA" text="走了{{step}}步" size="210"layer-color="#D3D3D3"
+class="cc" clockwise="{{ false }}" />
+
+<view style="width: 678rpx; height: 266rpx; display: block; box-sizing: border-box; position: absolute; left: 32rpx; top: 644rpx" class="box">
+<text class="text4" style="position: relative; left: 48rpx; top: -34rpx">
+距离：
+</text >
+<text class="text3" style="position: relative; left: 180rpx; top: -92rpx">{{step1}}米</text>
+<text class="text4" style="position: relative; left: 48rpx; top: -76rpx">
+其中：
+</text >
+<text class="text3" style="position: relative; left: 180rpx; top: -130rpx">消耗{{step2}}大卡
+</text>
+<text class="text3" style="position: relative; left: 48rpx; top: -106rpx" wx:if="{{step1>=10000}}">今日运动指数已达标</text>
+<text class="text3" style="position: relative; left: 48rpx; top: -106rpx" wx:if="{{step1<10000}}">今日运动指数未达标</text>
+</view>
+
+
+
+<view style="width: 682rpx; height: 600rpx; display: block; box-sizing: border-box; position: absolute; left: 31rpx; top: 930rpx; opacity: {{0.6}}" class="box1" >
+<image src="https://s1.ax1x.com/2022/09/17/xpAOaj.md.png" style="width: 358rpx; height: 256rpx; display: inline-block; box-sizing: border-box; position: relative; left: 322rpx; top: 342rpx"></image>
+</view>
+
+<image src="https://s1.ax1x.com/2022/09/17/xpA1Cq.png" style="position: relative; left: 32rpx; top: 572rpx; width: 421rpx; height: 368rpx; display: inline-block; box-sizing: border-box" class="img1">
+</image>
+<text class="word" style="width: 328rpx; height: 60rpx; display: block; box-sizing: border-box; left: 88rpx; top: 1021rpx; position: absolute">运动小贴士 </text>
+<text class="word1" style="position: absolute; left: 56rpx; top: 1080rpx">
+1.首先老年人要对自己的身体情况有
+所了解，不要选择超出能力范围以外
+的项目运动方式要多样化，避免单一
+运动
+2.运动项目要舒适自然，以准低强度
+为宜
+3.运动时间要控制好，不宜过长
+</text>

@@ -1,0 +1,34 @@
+page{
+    background: rgb(238, 237, 237);
+    }
+  text{
+  font-size: 37rpx;
+  }
+  input{
+      border:none;
+  }
+  view{
+    border: 4rpx solid #d1ccc6;
+  }
+  .b1{
+  border: none;
+  border-bottom: 1px solid #aaa8a5;
+  }
+  
+  button{
+    color: #fdfdfd;
+    border-radius:25px !important;
+    background-color: rgb(44, 124, 230);
+  }
+  .t1{
+    font-size: 40rpx;
+  }
+  .box{
+    position: absolute;
+    z-index: 4;
+    margin-top: 20rpx;
+      width: 100%;
+      height:110rpx;
+      border-radius:15px !important;
+      background-color: #ffffff;
+  }

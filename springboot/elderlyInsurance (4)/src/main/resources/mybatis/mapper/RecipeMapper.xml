@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.li.mapper.RecipeMapper">
+
+    <select id="queryAllRecipe" resultType="com.li.pojo.Recipe">
+        select * from oldperson.recipe
+    </select>
+
+    <select id="queryRecipeById" parameterType="int" resultType="com.li.pojo.Recipe">
+        select * from oldperson.recipe where id=#{id};
+    </select>
+
+    <select id="queryRecipeByTitle" parameterType="String" resultType="com.li.pojo.Recipe">
+        select * from oldperson.recipe where title=#{title};
+    </select>
+
+
+</mapper>

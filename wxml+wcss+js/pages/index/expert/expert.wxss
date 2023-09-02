@@ -1,0 +1,57 @@
+.box{
+    height:100rpx;
+    border-radius:40px !important;
+    background-color: #ffffff;
+    border: 3rpx solid #a59c9c;
+    text-align: center;
+}
+.box1{
+  width: 670rpx; height: 266rpx;
+  background-color: #ffffff;
+  border: 2rpx solid #a59c9c;
+  box-shadow:0rpx 2rpx 4rpx 2px#c8c3c3;
+  font-size: 40rpx;
+}
+.box2{
+  width: 100%;
+  height: 600rpx;
+}
+.box3{
+  width: 670rpx; height: 266rpx;
+  background-color: #ffffff;
+  border: 3rpx solid #a59c9c;
+
+}
+button{
+
+  background: url("https://s1.ax1x.com/2022/09/20/xP5M5j.png") no-repeat;
+  border-style: none;
+  background-size:40px 40px;
+  z-index:210;
+}
+.text01{
+  font-size: 25rpx;
+  z-index:210;
+  }
+.text02{
+    font-size: 45rpx;
+    font-weight: 500;
+    color: rgb(240, 202, 36);
+    z-index:210;
+    }
+.text03{
+      font-size: 35rpx;
+      z-index:210;
+      word-wrap: break-word;
+      z-index:210;
+      }
+.text04{
+  font-size:35rpx ;
+  color: rgb(235, 30, 15);
+}
+.text05{
+  font-size:35rpx ;
+  color: rgb(71, 241, 28);
+}
+
+      

@@ -1,0 +1,37 @@
+
+<View style="width: 750rpx; height: 872rpx; display: block; box-sizing: border-box" class="ba" bindtap="getdata">
+  <form bindsubmit="formSubmit">
+    <input type="text" name="keyword" class="box" style="position: absolute; left: 42rpx; top: 80rpx; width: 666rpx; height: 103rpx; display: block; box-sizing: border-box" placeholder="  请输入要找食谱"></input>
+    <button formType="submit" style="position: relative; left: 268rpx; top: 92rpx; width: 76rpx; height: 78rpx; display: block; box-sizing: border-box"></button>
+  </form>
+  <text class="text1" style="position: relative; left: 22rpx; top: 120rpx">今日食谱推荐</text>
+  <text class="text2" style="position: relative; left: 36rpx; top: -112rpx">
+鲫鱼汤</text>
+<image class="img" src="https://s1.ax1x.com/2022/09/17/xpAIRP.jpg" style="position: relative; left: -114rpx; top: 194rpx; width: 464rpx; height: 292rpx; display: inline-block; box-sizing: border-box"></image>
+<text style="position: relative; left: 22rpx; top: 218rpx" decode="{{true}}" space="{{true}}" class="text3" >
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;鲫鱼汤是一道以鲫鱼，豆腐，蘑菇
+      等作为石材而成的汤，鲫鱼所含的蛋白
+      质优，容易消化吸收
+</text>
+</View>
+
+<image src="https://s1.ax1x.com/2022/09/17/xpAbqg.png"  style="width: 104rpx; height: 104rpx; display: inline-block; box-sizing: border-box; position: relative; left: 0rpx; top: 12rpx"></image>
+
+<text  class="text4" style="position: relative; left: 31rpx; top: -16rpx">养生食谱</text>
+
+
+
+<view wx:for="{{re}}" style="top: 20rpx;" >
+<view bindtap="show" data-va="{{item.description}}" class="box" style="width: 750rpx; height: 208rpx; display: block; box-sizing: border-box;  position: relative; left: 0rpx;margin-top: 20rpx;" >
+<image class="img" src="{{item.url}}" style="width: 205rpx; height: 205rpx; display: inline-block; box-sizing: border-box"></image>
+ <text class="text5" style="position: relative; left: 239rpx; top: -215rpx">
+ {{item.title}}</text>
+ <view style="position: relative; left: 239rpx; top: -214rpx; width: 474rpx; height: 148rpx; display: block; box-sizing: border-box">{{item.material}}</view>
+
+</view>
+<view class="modal-box" hidden="{{flag}}" bindtap="hide" style="margin:100rpx auto">
+        <view class="modal-content"
+        style='margin:100rpx auto' bindtap="hide" style="margin: 100rpx auto; width: 570rpx; height: 699rpx; display: block; box-sizing: border-box; left: 22rpx; top: 208rpx; position: relative">{{value}}</view>
+  </view>
+
+</view>

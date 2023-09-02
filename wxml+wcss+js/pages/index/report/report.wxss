@@ -1,0 +1,35 @@
+page{
+  /* background-color: rgb(193, 229, 250); */
+  background: -webkit-linear-gradient(top,rgb(193, 229, 250),rgb(212, 236, 250),rgb(236, 247, 250));
+
+}
+.v1{
+  border-radius:15px !important;
+  background-color: #ffffff;
+  border: 3rpx solid #ffffff;
+  box-shadow:0rpx 2rpx 5rpx#acdbf3;
+  background-color: rgb(255, 255, 255);
+}
+.t1{
+  font-size: 80rpx;
+  font-family: Monospace;
+}
+.t2{
+  font-size: 50rpx;
+  font-family: Monospace;
+  writing-mode:tb-rl
+}
+.t3{
+  font-size: 26rpx;
+  color: #7e7d7d;
+}
+.t4{
+
+  font-size: 50rpx;
+}
+.v2{
+  background-color: #ffffff;
+  border: 3rpx solid #e4dfdf;
+  box-shadow:0rpx 2rpx 5rpx 7rpx #dbdada;
+  background-color: rgb(255, 255, 255);
+}

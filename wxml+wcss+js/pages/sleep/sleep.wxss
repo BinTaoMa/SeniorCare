@@ -1,0 +1,42 @@
+.word{
+    font-size: 40rpx;
+  }
+  .box{
+  
+      width: 100%;
+      height:110rpx;
+      background-color: #ffffff;
+      border: 3rpx solid #7c7777;
+      overflow: hidden;
+  }
+  .box1{
+    margin-top: 20rpx;
+      width: 80%;
+      height:200rpx;
+      border-radius:15px !important;
+      background-color: #f8fa9f;
+      border: 3rpx solid #f3f5a4;
+  }
+  .bd{
+    border: 3rpx solid #7c7777;
+  }
+  
+  /**index.wxss**/
+  .content{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  .word{
+    position: absolute;
+    z-index: 4;
+    font-family: "Lucida Calligraphy", cursive, serif, sans-serif;
+    font-size:60rpx ;
+  }
+  .word1{
+  
+  
+    font-size:40rpx ;
+  }
+  
+  

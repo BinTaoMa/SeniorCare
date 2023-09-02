@@ -1,0 +1,75 @@
+.box{
+
+    border-radius: 20px;
+      width: 100%;
+      height:110rpx;
+      background-color: #fffcfc;
+      border: 3rpx solid #acaaaa;
+      box-shadow:0rpx 2rpx 5rpx #c8c3c3;
+  }
+  button{
+    background: url("https://s1.ax1x.com/2022/09/20/xP5M5j.png") no-repeat;
+    border-style: none;
+  background-size:40px 40px;
+  z-index:210;
+  }
+  .ba{
+    background-image: linear-gradient(#f5c263,#FFA500,#FFFFFF)
+  }
+  .input1{
+  
+    border: 1px solid black; border-radius: 20px;
+    /*设置边框及圆角*/
+    background-color: white;
+  }
+  .text1{
+    font-size: 60rpx;
+    font-weight: 600;
+    font-style: italic;
+    color:#808080;
+  }
+  .text2{
+    font-size: 50rpx;
+    font-weight: 400;
+  }
+  .text3{
+    font-size: 40rpx;
+  }
+  .text4{
+    font-size: 60rpx;
+    font-weight: 900;
+  }
+  .img{
+    border-radius:20px !important;
+  }
+  .text5{
+    font-size: 40rpx;
+    text-align: center; 
+  }
+  .text6{
+    font-size: 38rpx;
+    color: red;
+  }
+  .text7{
+    font-size: 38rpx;
+  
+  }
+  
+  .modal-box{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    z-index: 1;
+  }
+  .modal-content{
+    width: 60%;
+    height:150px; 
+    margin:500rpx 170rpx;
+    background-color: rgb(255, 255, 255);
+    border: 3rpx solid rgb(146, 146, 146);
+    font-size: 40rpx;
+    border-radius: 15px;
+    opacity:1;
+  }
+  

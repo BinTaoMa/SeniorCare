@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/expert/expert",
+    "pages/index/report/report",
+    "pages/index/help/help",
+    "pages/index/medicine/medicine",
+    "pages/index/medicine/add",
+    "pages/index/check/index",
+    "pages/sleep/sleep",
+    "pages/diet/diet",
+    "pages/run/run",
+    "pages/mine/mine",
+    "pages/mine/news/news",
+    "pages/mine/setting/setting",
+    "pages/mine/reponse/reponse",
+    "pages/mine/rep/rep",
+    "pages/result/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#87CEFA",
+    "navigationBarTitleText": "老人宝",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "医疗",
+        "iconPath": "/pages/icon01/医疗5y.png",
+        "selectedIconPath": "/pages/icon01/医疗5y.png"
+      },
+      {
+        "pagePath": "pages/diet/diet",
+        "text": "饮食",
+        "iconPath": "/pages/icon01/饮食1.png",
+        "selectedIconPath": "/pages/icon01/饮食1.png"
+      },
+      {
+        "pagePath": "pages/run/run",
+        "text": "运动",
+        "iconPath": "/pages/icon01/运动1.png",
+        "selectedIconPath": "/pages/icon01/运动1.png"
+      },
+      {
+        "pagePath": "pages/sleep/sleep",
+        "text": "睡眠",
+        "iconPath": "/pages/icon01/睡眠1.png",
+        "selectedIconPath": "/pages/icon01/睡眠1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/pages/icon01/我的1.png",
+        "selectedIconPath": "/pages/icon01/我的1.png"
+      }
+    ],
+    "color": "#000000",
+    "selectedColor": "#87CEFA"
+  },
+  "plugins": {
+    "WechatSI": {
+      "version": "0.3.5",
+      "provider": "wx069ba97219f66d99"
+    },
+    "fy-plugin": {
+      "version": "1.0.1",
+      "provider": "wx989916ade2f4ff03"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

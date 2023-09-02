@@ -1,0 +1,4 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {"check": "plugin://fy-plugin/check-component"}
+}

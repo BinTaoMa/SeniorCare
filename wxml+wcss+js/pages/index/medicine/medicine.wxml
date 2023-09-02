@@ -1,0 +1,36 @@
+<!--pages/index/medicine/medicine.wxml-->
+<view bindtap="getdata">
+  <image src="https://s1.ax1x.com/2022/09/17/xpFbSf.png" style="width: 430rpx; height: 406rpx; display: inline-block; box-sizing: border-box; position: relative; left: 128rpx; top: 40rpx"></image>
+
+  <image class="aa" style="position: relative; width: 70rpx; height: 70rpx; display: inline-block; box-sizing: border-box; left: 212rpx; top: -296rpx" src="https://img.88icon.com/download/jpg/201912/48dd0f8500a7b7b9ae8a71b0b6b4237b.jpg!88con" bindtap="add" />
+</view>
+<text style="position: relative; left: 29rpx; top: 71rpx; font-size: 18px;">距离您下次吃药时间还有：</text>
+<scroll-view class="bottom" style="height: 1000px;">
+
+
+  <text style="position: relative; left: 68rpx; top: 88rpx; font-size: 23px; color: orangered">一小时20分钟</text>
+ 
+<view wx:for="{{re}}" wx:key="*this" class="box" style="position: relative; left: 68rpx; top: 110rpx; width: 608rpx; height: 230rpx; display: block; box-sizing: border-box; margin-bottom: 20px">
+
+
+    <image style="position: relative; left: -2rpx; top: 57rpx; width: 142rpx; height: 138rpx; display: inline-block; box-sizing: border-box" src="https://s1.ax1x.com/2022/09/17/xpkPpV.png" />
+
+    <text style="position: relative; left: -136rpx; top: -95rpx; font-size: 24px; color: rgb(26, 135, 224)">{{item.category}}</text>
+
+    <text style="position: relative; left: -146rpx; top: -50rpx; font-size: 24px; font-weight: 500">{{item.title}}</text>
+
+    <text style="position: relative; left: 140rpx; top: -50rpx; font-size: 18px; color: darkorange">
+        {{item.description}}</text>
+
+
+
+
+    <image style="position: absolute; width: 86rpx; height: 68rpx; display: block; box-sizing: border-box; left: 436rpx; top: 1rpx" src="https://s1.ax1x.com/2022/09/17/xpFxTs.png" />
+
+
+
+    <image style="position: absolute; width: 86rpx; height: 68rpx; display: inline-block; box-sizing: border-box; left: 520rpx; top: 2rpx" src="https://s1.ax1x.com/2022/09/17/xpFjmQ.png" />
+</view>
+  
+</scroll-view>
+

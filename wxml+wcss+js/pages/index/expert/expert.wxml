@@ -1,0 +1,55 @@
+<image src="https://s1.ax1x.com/2022/09/17/xpECsU.png" style="width: 750rpx; height: 556rpx; display: inline-block; box-sizing: border-box; opacity: {{0.5}}"> 
+  <form bindsubmit="formSubmit">
+  <input type="text" name="keyword" class="box" style="position: absolute; left: 42rpx; top: 40rpx; width: 666rpx; height: 103rpx; display: block; box-sizing: border-box" placeholder="  请输入要找的医生"></input>
+  <button formType="submit"  style="width: 80rpx; height: 80rpx; display: block; box-sizing: border-box; left: 260rpx; top: -502rpx; position: relative"></button>
+ </form>
+</image>
+
+
+
+
+
+
+<view  style="width: 750rpx; height: 1178rpx; display: block; box-sizing: border-box; position: relative; left: 2rpx; top: -406rpx" wx:if="{{centent_Show}}" >
+<view class="box1" style="position: relative; left: 20rpx; top: 24rpx; width: 710rpx; height: 88rpx; display: block; box-sizing: border-box"> 
+   <text style="position: relative; left: 22rpx; top: -39rpx"decode="{{true}}" space="{{true}}" >
+    &nbsp;外科 &nbsp;&nbsp;骨科&nbsp;&nbsp;内科&nbsp;&nbsp;内科&nbsp;&nbsp;精神科&nbsp;&nbsp;妇科</text>
+</view>
+
+
+<view wx:for="{{re}}" wx:key="*this" class="box1" style="margin-bottom: 20px; position: relative; left: 24rpx; top: 57rpx; width: 706rpx; height: 284rpx; display: block; box-sizing: border-box">
+  <text class="text02" style="position: relative; left: 242rpx; top: -51rpx">
+    {{item.name}}
+  </text>
+  <text class="text01" style="position: relative; left: 648rpx; top: 62rpx">
+    {{item.department}}
+  </text>
+  <view class="text03" style="position: relative; left: 264rpx; top: -132rpx; width: 432rpx; height: 170rpx; display: block; box-sizing: border-box">
+    {{item.description}}
+  </view>
+  <text wx:if="{{!item.online}}"  style="position: relative; left: 588rpx; top: -596rpx"class="text04">离线</text>
+  <text wx:if="{{item.online}}"  style="position: relative; left: 588rpx; top: -596rpx" class="text05">在线</text>
+
+  <image style="position: relative; left: -70rpx; top: -375rpx; width: 256rpx; height: 246rpx; display: inline-block; box-sizing: border-box" src="https://s1.ax1x.com/2022/09/17/xpEFZ4.png" />
+</view> 
+</view > 
+
+
+
+<view wx:if="{{!centent_Show}}" wx:for="{{re}}"  class="box1" style="margin-bottom: 20px; position: relative; left: 23rpx; top: -388rpx; width: 706rpx; height: 284rpx; display: block; box-sizing: border-box">
+  <text class="text02" style="position: relative; left: 242rpx; top: -51rpx">
+    {{item.name}}
+  </text>
+  <text class="text01" style="position: relative; left: 648rpx; top: 62rpx">
+    {{item.department}}
+  </text>
+  <view class="text03" style="position: relative; left: 264rpx; top: -132rpx; width: 432rpx; height: 170rpx; display: block; box-sizing: border-box">
+    {{item.description}}
+  </view>
+  <text wx:if="{{!item.online}}"  style="position: relative; left: 588rpx; top: -596rpx"class="text04">离线</text>
+  <text wx:if="{{item.online}}"  style="position: relative; left: 588rpx; top: -596rpx" class="text05">在线</text>
+
+  <image style="position: relative; left: -70rpx; top: -375rpx; width: 256rpx; height: 246rpx; display: inline-block; box-sizing: border-box" src="https://s1.ax1x.com/2022/09/17/xpEFZ4.png" />
+</view> 
+
+

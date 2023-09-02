@@ -1,0 +1,82 @@
+<!--用户头像和昵称-->
+
+<view class='box' style="width: 750rpx; height: 318rpx; display: block; box-sizing: border-box">
+  <view style="width:100%">
+  <image src="{{avatarUrl}}" class="image_radius" style="display: inline-block; box-sizing: border-box; width: 246rpx; height: 246rpx; position: relative; left: 29rpx; top: 39rpx"></image>
+  <text style="position: relative; left: 103rpx; top: -61rpx" class="text01" bindtap="getUserProfile">{{nickName}}</text>
+  </view>
+</view>
+
+
+<!--间隔灰横条-->
+<view class="graydivide" style="width: 746rpx; height: 46rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx"></view>
+<!--消息-->
+<navigator url="/pages/mine/news/news" hover-class="navigator-hover">
+  <view class='box'>
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="https://s1.ax1x.com/2022/09/17/xpAGvT.png"></image>
+      </view>
+      <view class="text">消息</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+          <image class="icon-picture" src="https://s1.ax1x.com/2022/09/17/xpEViR.png"></image>
+      </view>
+    </view>
+  </view>
+</view></navigator>
+
+
+<view class="graydivide" style="width: 746rpx; height: 46rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx"></view>
+
+<navigator url="/pages/mine/setting/setting" hover-class="navigator-hover">
+  <view class='box'>
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="https://s1.ax1x.com/2022/09/17/xpAtrF.png"></image>
+      </view>
+      <view class="text">设置</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+          <image class="icon-picture" src="https://s1.ax1x.com/2022/09/17/xpEViR.png"></image>
+      </view>
+    </view>
+  </view>
+</view></navigator>
+
+
+<!--间隔白横线-->
+<view class="graydivide" style="width: 746rpx; height: 46rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx"></view>
+
+
+<button class="box"open-type="contact" bindcontact="handleContact"  style="width: 746rpx; height: 114rpx; display: block; box-sizing: border-box; left: 1rpx; top: 2rpx; position: relative">
+<view style="width:100%">
+    <view class="functioninformation">
+      <view class="right-icon">
+          <image class="icon-picture" src="https://s1.ax1x.com/2022/09/17/xpEViR.png"></image>
+      </view>
+    </view>
+</view></button>
+<view class="text" style="position: relative; left: 116rpx; top: -84rpx; width: 216rpx; height: 58rpx; display: flex; box-sizing: border-box">
+反馈与帮助
+</view>
+
+<image class="icon-picture" src="https://s1.ax1x.com/2022/09/17/xpAda9.png" style="width: 58rpx; height: 58rpx; display: flex; box-sizing: unset; position: relative; left: 26rpx; top: -136rpx"></image>
+
+
+<!--编辑-->
+<navigator url="/pages/mine/rep/rep" hover-class="navigator-hover" style="width: 746rpx; height: 114rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: -70rpx">
+  <view class='box' style="position: relative; left: -4rpx; top: 0rpx">
+  <view style="width: 100%; position: relative; left: 2rpx; top: 0rpx">
+    <view class="functioninformation" style="position: relative; left: 0rpx; top: 0rpx"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="https://s1.ax1x.com/2022/10/15/x0JE4A.png"></image>
+      </view>
+      <view class="text">信息填写</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+          <image class="icon-picture" src="https://s1.ax1x.com/2022/09/17/xpEViR.png"></image>
+      </view>
+    </view>
+  </view>
+</view></navigator>
+

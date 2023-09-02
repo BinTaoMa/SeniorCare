@@ -1,0 +1,27 @@
+
+<button style="background-image: url(https://s1.ax1x.com/2022/09/26/xVfVaT.png); position: relative; left: 1rpx; top: 26rpx; width: 308rpx; height: 308rpx; display: block; box-sizing: border-box" bindtap="call" data-item='{{phone}}'></button>
+
+  <text style="position: relative; left: 258rpx; top: 110rpx; font-size: 30px; color: rgb(189, 82, 21)">受伤呼救</text>
+
+
+
+<image style="position: absolute; width: 146rpx; height: 84rpx; display: inline-block; box-sizing: border-box; left: 303rpx; top: 334rpx" src="https://s1.ax1x.com/2022/09/17/xpkl6O.png"/>
+
+<button style="position: relative; background-image: url(https://s1.ax1x.com/2022/09/26/xVfEZV.png); left: -3rpx; top: 288rpx; width: 304rpx; height: 304rpx; display: block; box-sizing: border-box" bindtap="call" data-item='{{phone}}'></button>
+<image style="position: relative; width: 146rpx; height: 114rpx; display: inline-block; box-sizing: border-box; left: 302rpx; top: 266rpx" 
+src="https://s1.ax1x.com/2022/09/17/xpkl6O.png" bindtap="Callphone" data-item='{{phone}}'/>
+<text style="position: relative; left: 112rpx; top: 330rpx; font-size: 30px; color: rgb(189, 82, 21)">走失呼救</text>
+<text style="position: relative; left: 134rpx; top: -331rpx; font-size: 18px; font-family: Arial, Helvetica, sans-serif">
+当您意外受伤或者摔倒时点击此键
+将自动给您的家人发送求助信息并
+拨打120电话</text>
+<text style="position: relative; left: 134rpx; top: 180rpx; font-size: 18px; font-family: Arial, Helvetica, sans-serif" decode="{{true}}">
+  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当你走失时点击此键
+将会给您的家人发送走失信息
+&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;并自动发送您的位置</text>
+
+
+
+
+
+

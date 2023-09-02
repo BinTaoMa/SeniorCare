@@ -1,0 +1,56 @@
+<!--index.wxml-->
+<swiper indicator-dots autoplay circular  style="width: 750rpx; height: 477rpx; display: block; box-sizing: border-box">
+  <swiper-item><image mode="widthFix" src="https://s1.ax1x.com/2022/09/17/xpkJ7d.md.png" /></swiper-item>
+    <swiper-item><image style="width: 750rpx; height: 400rpx; display: inline-block; box-sizing: border-box" mode="widthFix" src="https://s1.ax1x.com/2022/09/17/xpktAA.png" /></swiper-item>
+</swiper>
+<view class="box" style="position: absolute; left: 34rpx; top: 496rpx; width: 670rpx; height: 196rpx; display: block; box-sizing: border-box" >
+  <image src="https://s1.ax1x.com/2022/09/17/xpAgqe.png" style="width: 120rpx; height: 120rpx; display: inline-block; box-sizing: border-box; position: relative; left: -2rpx; top: -3rpx"bindtap="expert"></image>
+<image src="https://s1.ax1x.com/2022/09/17/xpARVH.png" style="width: 120rpx; height: 115rpx; display: inline-block; box-sizing: border-box; position: relative; left: 58rpx; top: -6rpx"bindtap="medicine"></image>
+<image src="https://s1.ax1x.com/2022/09/17/xpAWad.png" style="width: 129rpx; height: 129rpx; display: inline-block; box-sizing: border-box; position: relative; left: 108rpx; top: -2rpx"bindtap="help"></image>
+<image src="https://s1.ax1x.com/2022/10/17/xDGTnf.png" style="width: 120rpx; height: 110rpx; display: inline-block; box-sizing: border-box; position: relative; left: 157rpx; top: 0rpx"bindtap="share"></image>
+<text class="text1" style="position: relative; left: -490rpx; top: 48rpx">专家咨询</text>
+<text class="text1"  style="position: relative; left: 170rpx; top: -2rpx">
+定时吃药</text>
+<text class="text1"  style="position: relative; left: 205rpx; top: -2rpx">紧急呼救</text>
+<text class="text1"  style="position: relative; left: 268rpx; top: 1rpx">AI舌诊</text>
+</view>
+<view class="box1" style="position: absolute; left: 94rpx; top: 730rpx; width: 602rpx; height: 140rpx; display: block; box-sizing: border-box"bindtap="healthinfo"> 
+<text class="text2" style="position: relative; left: 136rpx; top: 39rpx">点击领取你的检测报告</text>
+</view>
+
+<view class="box2" style="position: absolute; left: 34rpx; top: 704rpx; width: 194rpx; height: 192rpx; display: block; box-sizing: border-box">
+  <image src="https://s1.ax1x.com/2022/09/17/xpFDoR.png" style="width: 162rpx; height: 162rpx; display: inline-block; box-sizing: border-box; position: relative; left: 15rpx; top: 13rpx"></image></view>
+
+<view class="box3" style="position: absolute; left: 19rpx; top: 936rpx; width: 712rpx; height: 1350rpx; display: block; box-sizing: border-box; opacity: 0.5">
+
+<image src="https://s1.ax1x.com/2022/09/17/xpAD8x.png" style="width: 366rpx; height: 340rpx; display: inline-block; box-sizing: border-box; position: relative; left: 171rpx; top: 312rpx"></image>
+</view>
+
+<image src="https://s1.ax1x.com/2022/09/17/xpA1Cq.md.png" style="width: 480rpx; height: 388rpx; display: inline-block; box-sizing: border-box; position: relative; left: 34rpx; top: 387rpx" >  </image>
+
+
+<text class="word" style="position: relative; left: 94rpx; top: 128rpx">
+家中常备药品</text>
+
+<text class="word1" style="position: relative; left: 30rpx; top: 154rpx">
+1.常用药
+退烧药，感冒药，消炎药，藿香正气水，
+腹泻药等常备药。
+老人家庭可以备一些急性救心药或降压药。
+
+2.外用药
+
+生活中难免磕磕碰碰，或者扭伤。所以
+也有必要备点外用药物。比如碘伏、酒
+精等消毒药品
+
+3.简单医疗用品
+
+除了药物之外，还可以配备一些医疗器
+械用品，比如体温计、纱布、创口贴、
+医用胶带等。
+
+如果家中有老人或慢性病患者，还应根
+据家庭成员的健康情况和疾病情况配备
+血压计、血糖仪、血氧仪等。</text>
+

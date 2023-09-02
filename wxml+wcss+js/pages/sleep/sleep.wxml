@@ -1,0 +1,47 @@
+
+  <view class="content" style="width: 750rpx; height: 660rpx; display: flex; box-sizing: border-box">
+  <view class="bd"style="width: 750rpx; height: 634rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: 0rpx" style="width: 746rpx; height: 618rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx"><image src="https://s1.ax1x.com/2022/10/18/xrHZIP.png" style="width: 760rpx; height: 462rpx; display: inline-block; box-sizing: border-box"></image>
+<image src="https://s1.ax1x.com/2022/09/26/xVj9KK.png" style="position: relative; left: 186rpx; top: -384rpx; width: 474rpx; height: 474rpx; display: inline-block; box-sizing: border-box"></image>
+
+
+<image src="https://s1.ax1x.com/2022/10/18/xrh6gA.png" style="position: relative; left: -174rpx; top: -505rpx; width: 150rpx; height: 150rpx; display: inline-block; box-sizing: border-box" wx:if="{{state=='paused'}}" bindtap="play"> </image>
+<image src="https://s1.ax1x.com/2022/10/18/xrhvUU.png" style="position: relative; left: -174rpx; top: -506rpx; width: 150rpx; height: 150rpx; display: inline-block; box-sizing: border-box"wx:else bindtap="pause"> </image>
+
+
+
+<text class="word" style="width: 184rpx; height: 150rpx; display: block; box-sizing: border-box; left: 396rpx; top: 443rpx; position: absolute">
+下一首</text>
+
+<image src="https://s1.ax1x.com/2022/10/18/xr4VUO.png" style="position: relative; left: 578rpx; top: -490rpx; width: 150rpx; height: 150rpx; display: inline-block; box-sizing: border-box" bindtap="next"></image></view>
+</view>
+
+<view class="box1" style="position: relative; left: 25rpx; top: -38rpx; width: 700rpx; height: 3700rpx; display: flex; box-sizing: border-box">
+<image src="https://s1.ax1x.com/2022/09/17/xpAMUs.md.png" style="filter: opacity(0.3); width: 354rpx; height: 328rpx; display: block; box-sizing: border-box; position: absolute; left: 164rpx; top: 240rpx"/>
+<image src="https://s1.ax1x.com/2022/09/17/xpA1Cq.png" style="width: 362rpx; height: 328rpx; display: inline-block; box-sizing: border-box; position: absolute; left: -2rpx; top: -88rpx"/>
+<text class="word" style="position: absolute; left: 14rpx; top: 35rpx">睡眠小贴士</text>
+<text class="word1" style="position: relative; left: 2rpx; top: 164rpx; width: 660rpx; height: 3326rpx; display: block; box-sizing: border-box "decode="{{true}}">
+1.睡前尽量保留60-90分钟的放松时间
+
+&emsp;&emsp;睡前足够的放松时间可以帮助我们保持良好的情绪状态。睡前充足的时间，可以帮助我们放下一天的疲劳，有足够的时间洗漱、整理第二天的衣服，也会有时间在睡前做一段放松训练，以便让我们更好的进入睡眠状态。
+
+2 建立合适的睡前仪式
+
+&emsp;&emsp;你是否会有这样的习惯？拿起牙刷，自然而然的就把牙膏挤在了牙刷上，再之后就牙刷就塞进了嘴里。其实，这是一系列条件反射的集合，如果睡眠可以像刷牙一样一气呵成，那该多好～
+
+&emsp;&emsp;建立睡前仪式就是在帮助我们建立关于睡觉的一系列条件反射，常见的睡前活动，如：洗脸、洗澡、刷牙、睡前听放松训练，这些都是常见的睡前仪式，选择一个你喜欢的活动，经常在睡前重复，那么，良好的睡眠就会像刷牙一样顺其自然的开始。
+
+3.日间尽量保持清醒
+
+&emsp;&emsp;每个人每天的睡眠需求是一定量的，如果在日间经常打盹、小睡，甚至是午睡，那么本应该保留在夜间的睡眠需求就会被提前支取，夜间的睡眠就会被干扰，因此，日间尽量保持清醒哦～～但注意，如果有饮用咖啡、茶、红牛等功能性饮料的习惯，最好仅在上午饮用，以免影响夜间睡眠。
+
+4.睡前4-5小时禁止服用茶、咖啡、巧克力等含咖啡因食品
+
+&emsp;&emsp;咖啡因会使人感到兴奋，咖啡因在人体内的半衰期大约为4-5小时，因此，睡前4-5小时禁止服用含有咖啡因的食物。但若有可能，请尽量在上午摄入咖啡因，以便将咖啡因对睡眠的影响降至最低。
+
+5.一年365天，尽量保持统一的睡觉与起床时间
+
+&emsp;&emsp;咋听起来好像有些匪夷所思与困难。为什么要这么严格呢？这是为了塑造我们的生物钟。你身边是否存咋一些人，到了睡觉的时间就困的难以坚持，早上不用设置闹钟，却从不迟到的人？这些人就是有着非常规律的生物钟。或许刚开始调整会有些困难，但是坚持一小段时间后，习惯了就会变得顺其自然。
+</text>
+
+</view>
+

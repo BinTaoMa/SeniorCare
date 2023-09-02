@@ -1,0 +1,2 @@
+<!--pages/result/index.wxml-->
+<text>您的体质为：{{physique}}</text>

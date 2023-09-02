@@ -1,0 +1,3 @@
+<!--pages/mine/reponse/reponse.wxml-->
+<button open-type="contact" bindcontact="handleContact" type="primary">在线咨询客服</button>
+

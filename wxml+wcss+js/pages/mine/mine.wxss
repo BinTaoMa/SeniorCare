@@ -1,0 +1,115 @@
+page{/*页面背景—————统一浅灰*/
+  background-color: #ededed;
+}
+
+.userInformation {/*头像&微信名称*/
+  display: flex;
+  background-color: #ffffff;
+}
+.userInfomation-avatar {/*头像*/ 
+  background-color: #ffffff;
+  margin: 0 auto;  
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx;
+  margin-top: 30rpx;
+  margin-left: 40rpx;
+  border-color: #ffffff;
+}
+
+.userInformation-nickname {/*昵称*/
+  color: #000000;
+  font-size: 22px;
+  font-weight: bold;
+  width: 320rpx;
+  height: 120px;
+  line-height: 120px;
+}
+
+.whitedivide {/*白色分割线*/
+  height: 1px;
+  background-color: #ffffff;
+  width: 56px;
+  position:relative;
+  top: 0px;
+}
+
+.graydivide {/*灰色分割条*/
+  height: 10px;
+  background-color: #ededed;
+  position:relative;
+  top: 0px;
+}
+
+.function {
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 0rpx;
+  overflow: hidden;
+  display: flex;/**/
+  border: 3rpx solid #7c7777;
+}
+
+.functioninformation {/*左边动作图标&文字说明*/
+  display: flex;
+}
+
+.left-icon {
+  display: flex;
+  margin: 14px;
+}
+
+.icon-picture {/*图标*/
+  display: flex;
+  width: 28px;
+  height: 28px;
+}
+
+.text {/*文字*/
+  font-size: 17px;
+  font-style: normal;
+  font-weight: normal;
+  width: 68px;
+  position: relative;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #000000;
+}
+
+.right-icon {/*右边图片*/
+  display: flex;
+  margin: 14px;
+  position: absolute;
+  right: 14px;
+}
+.ttex{
+  font-size:60rpx;
+}
+.box{
+  margin-top: 20rpx;
+    width: 100%;
+    height:110rpx;
+    border-radius:15px !important;
+    background-color: #ffffff;
+    border: 3rpx solid #7c7777;
+}
+.image_radius {
+
+  border-radius: 50%;
+		overflow: hidden;
+
+}
+.text01{
+  font-size: 60rpx;
+  }
+.text02{
+    font-size: 38rpx;
+    }
+
+   
+

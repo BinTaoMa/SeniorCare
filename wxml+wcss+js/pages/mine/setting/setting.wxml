@@ -1,0 +1,26 @@
+
+<view class="box">
+<text class="text1" style="position: relative; left: 54rpx; top: 27rpx">字体大小</text>
+
+  <image class="icon-picture" src="/pages/icon01/箭头-右-粗线条.png" style="position: relative; left: 636rpx; top: -45rpx; display: flex; box-sizing: border-box; width: 78rpx; height: 82rpx"></image>
+</view>
+
+<view class="graydivide"></view>
+<view class="box">
+<text class="text1" style="position: relative; left: 44rpx; top: 26rpx">关于</text>
+  <image class="icon-picture" src="/pages/icon01/箭头-右-粗线条.png" style="position: relative; left: 628rpx; top: -47rpx"></image>
+</view>
+
+<view class="graydivide"></view>
+
+<view class="box">
+<text class="text1" style="position: relative; left: 50rpx; top: 26rpx"> 分享</text>
+<image class="icon-picture" src="/pages/icon01/箭头-右-粗线条.png" style="position: relative; left: 628rpx; top: -47rpx; display: flex; box-sizing: border-box"></image></view>
+
+<view class="graydivide"></view>
+<view class="box">
+  <image class="icon-picture" src="/pages/icon01/箭头-右-粗线条.png" style="position: relative; left: 628rpx; top: 17rpx;  display: flex; box-sizing: border-box"></image>
+  <text class="text1" style="position: relative; left: 46rpx; top: -61rpx">字符串</text>
+</view>
+
+<view class="graydivide" style="width: 750rpx; height: 810rpx; display: block; box-sizing: border-box; left: 0rpx; top: 2rpx; position: relative"></view>

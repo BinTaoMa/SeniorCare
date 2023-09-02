@@ -1,0 +1,99 @@
+
+/* 封面 */
+ 
+.cover {
+  /* 系统约定了封面的像素比例是 1:1.65 */
+  width: 100vw;
+  height: 165vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.cover image {
+  width: 100%;
+  height: 100%;
+  
+}
+ 
+.cover  .layer {
+  width: 100%;
+  height: 120vw;
+  margin-top: -120vw;
+  z-index: 999;
+  /* opacity: 0.5; */
+  position: absolute;
+  z-index: 1;
+
+}
+ 
+.text1{
+  font-size: 70rpx;
+  font-weight: 600;
+  color: rgb(192, 128, 8);
+  position: absolute;
+  z-index: 2;
+
+}
+.text2{
+  font-size: 50rpx;
+  font-weight: 600;
+  position: absolute;
+  z-index: 2;
+
+
+}
+.cc{
+  font-size: 40rpx;
+  font-weight:1000;
+  position: absolute;
+  z-index: 4;
+}
+.box{
+  position: absolute;
+  z-index: 4;
+  margin-top: 20rpx;
+    width: 100%;
+    height:110rpx;
+    border-radius:15px !important;
+    background-color: #ffffff;
+    border: 3rpx solid #a59c9c;
+    box-shadow:0rpx 2rpx 5rpx 7rpx #c8c3c3;
+}
+.text4{
+  font-size: 45rpx;
+  color: blue;
+}
+.text3{
+  font-size: 40rpx;
+}
+.box1{
+  position: absolute;
+  z-index: 4;
+  margin-top: 20rpx;
+    width: 100%;
+    height:110rpx;
+    border-radius:15px !important;
+    background-color: #ffffff;
+    border: 3rpx solid #a59c9c;
+    box-shadow:0rpx 2rpx 5rpx 7rpx #c8c3c3;
+    background-color:	#c1e1f7;
+}
+.img1{
+  position: absolute;
+  z-index: 4;
+}
+.word{
+  position: absolute;
+  z-index: 4;
+  font-family: "Lucida Calligraphy", cursive, serif, sans-serif;
+  font-size:60rpx ;
+}
+.word1{
+  position: absolute;
+  z-index: 4;
+
+  font-size:40rpx ;
+  font-weight: 530;
+
+}

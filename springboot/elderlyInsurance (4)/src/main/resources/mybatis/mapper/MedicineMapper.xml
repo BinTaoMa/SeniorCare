@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.li.mapper.MedicineMapper">
+    <select id="queryAllMedicine" resultType="com.li.pojo.Medicine">
+        select * from oldperson.medicine
+    </select>
+
+    <select id="queryMedicineById" parameterType="int" resultType="com.li.pojo.Medicine">
+        select * from oldperson.medicine where id=#{id}
+    </select>
+
+    <insert id="addMedicine" parameterType="com.li.pojo.Medicine">
+        insert into oldperson.medicine (title, category, description) VALUE (#{title},#{category},#{description});
+    </insert>
+
+</mapper>

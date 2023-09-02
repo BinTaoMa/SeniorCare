@@ -1,0 +1,39 @@
+<!--pages/mine/rep/rep.wxml-->
+<text class="t1" style="position: relative; left: 20rpx; top: 31rpx">请填写基本信息</text>
+<form bindsubmit="formSubmit">
+  <view style="width: 730rpx; height: 1003rpx; display: block; box-sizing: border-box; position: absolute; left: 13rpx; top: 80rpx" class="box">
+    <view class="b1" style="width: 702rpx; height: 116rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 0rpx">
+<text style="position: relative; left: -2rpx; top: 36rpx">电话:</text>
+<input  name="tele" style="width: 574rpx; height: 94rpx; display: block; box-sizing: border-box; position: relative; left: 98rpx; top: -34rpx"></input>
+</view>
+
+<view class="b1" style="width: 702rpx; height: 113rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 0rpx">
+<text style="position: relative; left: 0rpx; top: 33rpx">我的邮件:</text>
+<input  name="mail1" style="width: 538rpx; height: 94rpx; display: block; box-sizing: border-box; position: relative; left: 164rpx; top: -39rpx"></input>
+</view>
+<view class="b1" style="width: 702rpx; height: 113rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 0rpx">
+<text style="position: relative; left: 0rpx; top: 33rpx">亲人邮件:</text>
+<input  name="mail2" style="width: 536rpx; height: 94rpx; display: block; box-sizing: border-box; position: relative; left: 166rpx; top: -39rpx"></input>
+</view>
+<view class="b1" style="width: 702rpx; height: 113rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 0rpx">
+<text style="position: relative; left: 0rpx; top: 33rpx">心率:</text>
+<input  name="rate" style="width: 576rpx; height: 94rpx; display: block; box-sizing: border-box; position: relative; left: 98rpx; top: -34rpx"></input>
+</view>
+<view class="b1" style="width: 702rpx; height: 113rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 0rpx">
+<text style="position: relative; left: 0rpx; top: 33rpx">体温:</text>
+<input  name="temp" style="width: 566rpx; height: 94rpx; display: block; box-sizing: border-box; position: relative; left: 98rpx; top: -34rpx"></input>
+</view>
+
+<view class="b1" style="width: 702rpx; height: 113rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 0rpx">
+<text style="position: relative; left: 0rpx; top: 33rpx">血压:</text>
+<input  name="pressure" style="width: 574rpx; height: 94rpx; display: block; box-sizing: border-box; position: relative; left: 98rpx; top: -34rpx"></input>
+</view>
+<view class="b1" style="width: 702rpx; height: 113rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 0rpx">
+<text style="position: relative; left: 0rpx; top: 33rpx">血糖:</text>
+<input  name="sugar" style="width: 566rpx; height: 94rpx; display: block; box-sizing: border-box; position: relative; left: 98rpx; top: -34rpx"></input>
+</view>
+</view>
+
+
+<button formType="submit" style="position: relative; left: -3rpx; top: 1180rpx; width: 722rpx; height: 92rpx; display: block; box-sizing: border-box">提交</button>
+</form>

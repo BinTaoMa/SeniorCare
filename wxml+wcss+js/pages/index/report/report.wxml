@@ -1,0 +1,57 @@
+<view class="v1" style="width: 722rpx; height: 128rpx; display: block; box-sizing: border-box; position: relative; left: 15rpx; top: 24rpx">
+<image style="width: 132rpx; height: 132rpx; display: inline-block; box-sizing: border-box; position: relative; left: 26rpx; top: -2rpx" src="https://s1.ax1x.com/2022/10/19/xsb2I1.png"/>
+<text class="t1" style="position: relative; left: 50rpx; top: -39rpx">健康体检报告</text>
+</view>
+
+<view class="v1" style="width: 718rpx; height: 606rpx; display: block; box-sizing: border-box; position: relative; left: 15rpx; top: 76rpx">
+  <text style="position: relative; left: 8rpx; top: -44rpx" class="t4">
+我的健康数据:</text>
+<view style="width: 352rpx; height: 188rpx; display: block; box-sizing: border-box; position: relative; left: 8rpx; top: -16rpx">
+  <van-circle  value="{{((re.bloodsugar-4.4)/2.7)*100}}" stroke-width="10" color="#87CEFA" text="{{re.bloodsugar}}" size="70"layer-color="#D3D3D3" style="position: relative; left: 0rpx; top: -1rpx">
+  </van-circle>
+  <text class="t2" style="position: relative; left: 33rpx; top: -15rpx">血糖</text>
+  <text class="t3" style="position: relative; left: 50rpx; top: -22rpx">mmol/L</text>
+  <text class="t3" style="position: relative; left: 8rpx; top: -8rpx">
+  正常范围：(4.4~7.1mmol/L)</text>
+  <image src="https://s1.ax1x.com/2022/10/19/xsqDYt.png" style="width: 60rpx; height: 60rpx; display: inline-block; box-sizing: border-box; position: relative; left: 247rpx; top: -164rpx"></image>
+</view>
+<view style="width: 352rpx; height: 188rpx; display: block; box-sizing: border-box; position: relative; left: 360rpx; top: -205rpx">
+  <van-circle  value="{{((re.temperature-36.0)/1)*100}}" stroke-width="10" color="#87CEFA" text="{{re.temperature}}" size="70"layer-color="#D3D3D3" style="position: relative; left: 0rpx; top: -1rpx">
+  </van-circle>
+  <text class="t2" style="position: relative; left: 33rpx; top: -15rpx">体温</text>
+  <text class="t3" style="position: relative; left: 50rpx; top: -22rpx">℃</text>
+  <text class="t3" style="position: relative; left: 70rpx; top: -27rpx">
+  正常范围：(36～37℃)</text>
+  <image src="https://s1.ax1x.com/2022/10/19/xsqDYt.png"  style="width: 60rpx; height: 60rpx; display: inline-block; box-sizing: border-box; position: relative; left: -32rpx; top: -132rpx"></image>
+</view>
+<view style="width: 352rpx; height: 188rpx; display: block; box-sizing: border-box; position: relative; left: 5rpx; top: -152rpx">
+  <van-circle  value="{{((re.heartrate-60)/40)*100}}" stroke-width="10" color="#87CEFA" text="{{re.heartrate}}" size="70"layer-color="#D3D3D3" style="position: relative; left: 0rpx; top: -1rpx">
+  </van-circle>
+  <text class="t2" style="position: relative; left: 33rpx; top: -15rpx">心率</text>
+  <text class="t3" style="position: relative; left: 50rpx; top: -22rpx">次/分钟</text>
+  <text class="t3" style="position: relative; left: 8rpx; top: -8rpx">
+  正常范围：(60～100次/分钟)</text>
+  <image src="https://s1.ax1x.com/2022/10/19/xsqDYt.png" style="width: 60rpx; height: 60rpx; display: inline-block; box-sizing: border-box; position: relative; left: 247rpx; top: -164rpx"></image>
+</view>
+<view style="width: 352rpx; height: 188rpx; display: block; box-sizing: border-box; position: relative; left: 364rpx; top: -340rpx">
+  <van-circle  value="{{((re.highpressure-80)/40)*100}}" stroke-width="10" color="#87CEFA" text="{{re.highpressure}}" size="70"layer-color="#D3D3D3" style="position: relative; left: 8rpx; top: -17rpx">
+  </van-circle>
+  <text class="t2" style="position: relative; left: 33rpx; top: -15rpx">高血压</text>
+  <text class="t3" style="position: relative; left: 50rpx; top: -22rpx; width: 390rpx; height: 298rpx; display: inline; box-sizing: content-box">mmHg</text>
+  <text class="t3" style="position: relative; left: 8rpx; top: -22rpx" decode="{{true}}">
+  正常范围:(&lt;=120/80mmHg)</text>
+  <image src="https://s1.ax1x.com/2022/10/19/xsqDYt.png" style="width: 60rpx; height: 60rpx; display: inline-block; box-sizing: border-box; position: relative; left: 247rpx; top: -164rpx"></image>
+</view>
+</view>
+
+
+<view class="v1" style="width: 718rpx; height: 490rpx; display: block; box-sizing: border-box; position: relative; left: 16rpx; top: 110rpx">
+<text class="t4" style="position: relative; left: 113rpx; top: -16rpx">报告结果</text>
+<image src="https://s1.ax1x.com/2022/10/19/xsvl2q.png" style="width: 114rpx; height: 114rpx; display: inline-block; box-sizing: border-box; position: relative; left: -202rpx; top: -2rpx">
+</image>
+<view class="t4" style="width: 648rpx; height: 310rpx; display: block; box-sizing: border-box; position: relative; left: 40rpx; top: 12rpx">
+  {{re.report}}
+</view>
+</view>
+
+
